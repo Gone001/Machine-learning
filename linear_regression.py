@@ -43,7 +43,7 @@ for epoch in range(epochs):
     c = c - learning_rate * dc
 
     # Print Progress
-    if epoch % 5000 == 0:
+    if epoch % 500 == 0:
         print(f"Epoch: {epoch}")
         print(f"Cost : {cost:.4f}")
         print(f"m    : {m:.4f}")
