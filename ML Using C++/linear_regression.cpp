@@ -76,7 +76,7 @@ int main() {
         m = m - learning_rate * dm;
         c = c - learning_rate * dc;
 
-        if(epoch % 500 == 0) {
+        if(epoch % 5000 == 0) {
 
             cout << "Epoch: " << epoch << endl;
             cout << "Cost : " << cost << endl;
